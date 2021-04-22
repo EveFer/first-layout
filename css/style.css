@@ -83,7 +83,7 @@ Absolutas:
 
 .main-header .header-center {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: space-between;
   padding: 50px 0;
@@ -107,6 +107,20 @@ Absolutas:
   margin: 0 20px;
 } */
 
+
+.main-header .header-center .wrapper-video {
+  position: relative;
+}
+
+.main-header .header-center img {
+  margin:0;
+}
+
+.main-header .header-center video {
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
 
 .main-header section {
   display: flex;
